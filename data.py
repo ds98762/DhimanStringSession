@@ -2,23 +2,23 @@ from pyrogram.types import InlineKeyboardButton
 
 
 class Data:
-    generate_single_button = [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+    generate_single_button = [InlineKeyboardButton("🎉 Sᴛᴀʀᴛ Gᴇɴᴇʀᴀᴛɪɴɢ Sᴇssɪᴏɴ 🧸", callback_data="generate")]
 
     home_buttons = [
         generate_single_button,
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+        [InlineKeyboardButton(text="🍷 Rᴇᴛᴜʀɴ Hᴏᴍᴇ 🏠", callback_data="home")]
     ]
 
     generate_button = [generate_single_button]
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("✨ Join Shayri Channel ✨", url="https://t.me/")],
+        [InlineKeyboardButton("🐣 Dʜɪᴍᴀɴ Fᴇᴇʟɪɴɢs 🍂", url="https://t.me/DHIMAN_FEELINGS")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("Hᴏᴡ Tᴏ Usᴇ ❔", callback_data="help"),
+            InlineKeyboardButton("🥀 ᴀʙᴏᴜᴛ 🦋", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/DhimanBots")],
+        [InlineKeyboardButton("♥ Dʜɪᴍᴀɴ Bᴏᴛs ♥", url="https://t.me/DhimanBots")],
     ]
 
     START = """
@@ -26,37 +26,37 @@ Hey {}
 
 Welcome to {}
 
-If you don't trust this bot, 
-1) stop reading this message
-2) delete this chat
+ɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴛʀᴜꜱᴛ ᴛʜɪꜱ ʙᴏᴛ, 
+1) ꜱᴛᴏᴘ ʀᴇᴀᴅɪɴɢ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ
+2) ᴅᴇʟᴇᴛᴇ ᴛʜɪꜱ ᴄʜᴀᴛ
 
-Still reading?
-You can use me to generate pyrogram (even version 2) and telethon string session. Use below buttons to learn more !
+ꜱᴛɪʟʟ ʀᴇᴀᴅɪɴɢ?
+ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ (ᴇᴠᴇɴ ᴠᴇʀꜱɪᴏɴ 2) ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ. ᴜꜱᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ !
 
-By @DhimanBots
+Bʏ : @DhimanBots
     """
 
     HELP = """
-✨ **Available Commands** ✨
+✨ **Aᴠᴀɪʟᴀʙʟᴇ Cᴍᴅs** ✨
 
-/about - About The Bot
-/help - This Message
-/start - Start the Bot
-/generate - Generate Session
-/cancel - Cancel the process
-/restart - Cancel the process
+/about - ᴀʙᴏᴜᴛ ᴛʜᴇ ʙᴏᴛ
+/help - ᴛʜɪs ᴍsɢ
+/start - sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ! 
+/generate - ɢᴇɴᴇʀᴀᴛᴇ ᴛʜᴇ sᴇssɪᴏɴ
+/cancel - ᴄᴀɴᴄᴇʟ ᴛʜᴇ ᴘʀᴏᴄᴇss
+/restart - ᴄᴀɴᴄᴇʟ ᴛʜᴇ ᴘʀᴏᴄᴇss
 """
 
     ABOUT = """
-**About This Bot** 
+**Aʙᴏᴜᴛ Dʜɪᴍᴀɴ Sᴛʀɪɴɢ Sᴇssɪᴏɴ Bᴏᴛ** 
 
-Telegram Bot to generate Pyrogram and Telethon string session by @DhimanBots
+Tᴇʟᴇɢʀᴀᴍ Bᴏᴛ Tᴏ Gᴇɴᴇʀᴀᴛᴇ Pʏʀᴏɢʀᴀᴍ Aɴᴅ Tᴇʟᴇᴛʜᴏɴ Sᴛʀɪɴɢ Sᴇssɪᴏɴ Bʏ : @DhimanBots
 
-Support : [Click Here](https://t.me/dhimandiscus)
+🌸 sᴜᴘᴘᴏʀᴛ : [Dʜɪᴍᴀɴ Dɪsᴄᴜs](https://t.me/dhimandiscus)
 
-Framework : [Pyrogram](https://docs.pyrogram.org)
+🌸 ғʀᴀᴍᴇᴡᴏʀᴋ : [ᴘʏʀᴏɢʀᴀᴍ](https://docs.pyrogram.org)
 
-Language : [Python](https://www.python.org)
+🌸 ʟᴀɴɢᴜᴀɢᴇ : [ᴘʏᴛʜᴏɴ](https://www.python.org)
 
-Developer : @i_dxlvir
+🍂 ᴅᴇᴠᴇʟᴏᴘᴇʀ : @i_dxlvir
     """
