@@ -13,7 +13,7 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("✨ Join Shayri Channel ✨", url="https://t.me/Dhiman_Feelings")],
+        [InlineKeyboardButton("✨ Join Shayri Channel ✨", url="https://t.me/")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
