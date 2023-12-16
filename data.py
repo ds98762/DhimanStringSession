@@ -13,12 +13,12 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("🐣 Dʜɪᴍᴀɴ Fᴇᴇʟɪɴɢs 🍂", url="https://t.me/DHIMAN_FEELINGS")],
+        [InlineKeyboardButton("🐣 Fᴇᴇʟɪɴɢs 🍂", url="https://t.me/Soul_x6")],
         [
             InlineKeyboardButton("Hᴏᴡ Tᴏ Usᴇ ❔", callback_data="help"),
             InlineKeyboardButton("🥀 ᴀʙᴏᴜᴛ 🦋", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ Dʜɪᴍᴀɴ Bᴏᴛs ♥", url="https://t.me/DhimanBots")],
+        [InlineKeyboardButton("♥ Mʀ. Dʜɪᴍᴀɴ ♥", url="https://t.me/i_dxlvir")],
     ]
 
     START = """
@@ -33,7 +33,7 @@ Welcome to {}
 ꜱᴛɪʟʟ ʀᴇᴀᴅɪɴɢ?
 ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ (ᴇᴠᴇɴ ᴠᴇʀꜱɪᴏɴ 2) ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ. ᴜꜱᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ !
 
-Bʏ : @DhimanBots
+Bʏ : @Abt_Mei
     """
 
     HELP = """
@@ -50,9 +50,9 @@ Bʏ : @DhimanBots
     ABOUT = """
 **Aʙᴏᴜᴛ Dʜɪᴍᴀɴ Sᴛʀɪɴɢ Sᴇssɪᴏɴ Bᴏᴛ** 
 
-Tᴇʟᴇɢʀᴀᴍ Bᴏᴛ Tᴏ Gᴇɴᴇʀᴀᴛᴇ Pʏʀᴏɢʀᴀᴍ Aɴᴅ Tᴇʟᴇᴛʜᴏɴ Sᴛʀɪɴɢ Sᴇssɪᴏɴ Bʏ : @DhimanBots
+Tᴇʟᴇɢʀᴀᴍ Bᴏᴛ Tᴏ Gᴇɴᴇʀᴀᴛᴇ Pʏʀᴏɢʀᴀᴍ Aɴᴅ Tᴇʟᴇᴛʜᴏɴ Sᴛʀɪɴɢ Sᴇssɪᴏɴ Bʏ : @i_dxlvir
 
-🌸 sᴜᴘᴘᴏʀᴛ : [Dʜɪᴍᴀɴ Dɪsᴄᴜs](https://t.me/dhimandiscus)
+🌸 sᴜᴘᴘᴏʀᴛ : [Dʜɪᴍᴀɴ Dɪsᴄᴜs](https://t.me/PUNJABI_HINDI_CHAT)
 
 🌸 ғʀᴀᴍᴇᴡᴏʀᴋ : [ᴘʏʀᴏɢʀᴀᴍ](https://docs.pyrogram.org)
 
